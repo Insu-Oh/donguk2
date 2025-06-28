@@ -1,0 +1,90 @@
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  max-width: fit-content;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.scoreBoard {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.gameBoard {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #444;
+  background-color: #000;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #111;
+  background-color: #000;
+}
+
+.snake {
+  background-color: #00ff00;
+  border-radius: 3px;
+}
+
+.head {
+  background-color: #00cc00;
+}
+
+.food {
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.gameOver {
+  color: #ff6666;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.startButton {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.startButton:hover {
+  background-color: #45a049;
+}
+
+.instructions {
+  color: #cccccc;
+  font-size: 1rem;
+  text-align: center;
+}
